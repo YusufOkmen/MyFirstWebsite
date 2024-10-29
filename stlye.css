@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Space+Grotesk:wght@300..700&display=swap);
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Space+Grotesk:wght@300..700&family=Tiny5&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Rubik+Wet+Paint&family=Space+Grotesk:wght@300..700&family=Tiny5&display=swap");
+
+
+* {
+    box-sizing: border-box;
+    font-family:Space Grotesk;
+    color: #6c6d73;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Margin ve padding değerlerinii sıfırlayarak css'in html için ayarladığı default boşlukları siliyoruz.*/ 
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0.6em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: lightsalmon;
+}
+
+.my-nav li {
+    padding: 0 5%;
+}
+ 
+.generally {
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 3em;
+    font-family: Caveat;
+    font-weight: normal;
+}
+
+.generally-large {
+    font-size: 6em;
+}
+
+
+.my-nav {
+    text-align: center; 
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom: 2px solid lightsalmon;
+
+}
+
+.main-header {
+    /* Resmimize default ayarlarda sadece tek bir renk işlemi yapabiliriz.Ancak blend mode ile çoğul renk işlemini resmimize uygulayabiliriz.*/
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url(images/backGroundForHeader.jpg);
+    background-blend-mode: multiply;
+    background-size:cover;/*resmi çerçeveye oturtur*/
+    padding-bottom: 10px;
+}
+
+.about-me {
+    margin: 1em;
+}
+
+.about-me-shaping {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-about {
+    text-align: center;
+    font-family: Rubik Wet Paint;
+    font-weight: normal;
+    color: #4e5453;
+    font-style: italic;
+    font-size: 3em;
+}
+
+.about-image {
+        float: left;
+        margin: 20px;
+        border-radius: 20%;
+}
+
+.main-footer {
+    background-color: #ebaa31;
+}
+
+.main-footer li {
+    display: inline;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+
+}
+
+.footer-nav li{
+    padding: 0.5em;
+}
+
+.facebook {
+    width: 80px;
+    height: 90px;
+}
+
+.youtube {
+    width: 100px;
+    height: 100px;
+}
+
+.main-footer {
+    align-self: center;
+}
